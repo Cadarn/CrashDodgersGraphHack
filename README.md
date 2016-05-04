@@ -580,6 +580,14 @@ Let's run the function over all London cycling accidents
 ```python
 output = cyclingAccidents.apply(genAccidentNodes, axis=1)
 ```
+### Graphically exploring our new database
+
+#### An accident node and associated properties including closest bike docking stations
+![png](images/AccidentNode.png)
+#### Which bike docking stations are linked to the fatal cycling accidents?
+![png](images/Accident_Station_Nodes.png)
+#### What was the speed limit on the roads with fatal cycling accidents?
+![png](images/Accidents_Speed.png)
 
 ## The most dangerous bike docking stations to cycle between
 We can query neo4j to count the number of accidents between bike stations
