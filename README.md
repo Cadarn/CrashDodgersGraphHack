@@ -789,5 +789,6 @@ mplleaflet.display(fig=fig, tiles='osm')
 ### Some interesting first results but more work needed
 
 It's great to see that the intial analysis worked and using Neo4j made our analysis easier and there is a lot more data stored in there that could be analysed at a later date. What at first appears surprising is that the "danger stations" that we have identified appear to gnerally bound the region that Santander bikes are available in, however, we cannot confirm these are correct without correcting for a couple of additional observational biases:
+
 1. Normalise for the amount of journeys starting/ending at each station, i.e. do more accidents happen because more people are riding in these parts of London.
 2. The density of bike docking stations is not uniform so those on the periphery may be being assigned more accidents based upon fewer stations to assign the accidents to.
