@@ -1,5 +1,4 @@
-
-# Graph hack 2016 @ GraphConnect Europe
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/cadarn/crashdodgersgraphhack)# Graph hack 2016 @ GraphConnect Europe
 ## Using Neo4j with transport data
 
 ### Team: Crash Dodgers: Adam Hill & Amy McQuillan
